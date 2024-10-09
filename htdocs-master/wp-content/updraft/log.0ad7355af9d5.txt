@@ -1,0 +1,423 @@
+0000.000 (0) Opened log file at time: Sun, 08 Sep 2024 00:29:58 +0000 on https://tocupboard.kesug.com
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.4 WP: 6.6.1 PHP: 8.2.21 (apache2handler, Linux webserver.cluster.com 6.7.7-362.18.1.el9_5.x86_64 #1 SMP PREEMPT_DYNAMIC Sun Sep 8 0:29:58 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux) MySQL: 10.6.19-MariaDB (max packet size=8388608) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 60 memory_limit: 512M (used: 39.2M | 44.5M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.004 (0) Free space on disk containing Updraft's temporary directory: 6730972.7 MB
+0000.007 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.009 (0) Semaphore (fd, wpwg_options) being initialised
+0000.012 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.014 (0) Set semaphore last lock (fd) time to 2024-09-08 00:29:58
+0000.014 (0) Semaphore lock (fd) complete
+0000.017 (0) Backup run: resumption=0, nonce=0ad7355af9d5, file_nonce=0ad7355af9d5 begun at=1725755398 (0s ago), job type=backup
+0000.019 (0) Scheduling a resumption (1) after 300 seconds (1725755698) in case this run gets aborted
+0000.031 (0) PHP event: code E_WARNING: file_exists(): open_basedir restriction in effect. File(/proc/user_beancounters) is not within the allowed path(s): (/php_sessions:/tmp:..:/var/www/errors:/home/vol19_1/infinityfree.com/if0_37246937/htdocs) (line 190, wp-content/plugins/updraftplus/backup.php)
+0000.031 (0) Checking if we have a zip executable available
+0000.033 (0) Creation of backups of directories: beginning
+0000.035 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.038 (0) PHP event: Could not ask cPanel about disk space (open_basedir) - this is not an error (line 419, wp-content/plugins/updraftplus/class-updraftplus.php)
+0001.051 (0) Total entities for the zip file: 292 directories, 1565 files (0 skipped as non-modified), 27.6 MB
+0001.183 (0) Zip: backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.371 (0) Zip: backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.563 (0) Zip: backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.681 (0) Zip: backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.850 (0) Zip: backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.981 (0) Zip: backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0002.102 (0) Zip: backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0002.193 (0) Zip: backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0002.298 (0) Zip: backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0002.409 (0) Zip: backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0002.411 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (22.8 MB, 1565 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0005.781 (0) Zip: backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-plugins.zip.tmp: 1100 files added (on-disk size: 7224 KB)
+0005.959 (0) Zip: backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-plugins.zip.tmp: 1200 files added (on-disk size: 7224 KB)
+0006.052 (0) Zip: backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-plugins.zip.tmp: 1300 files added (on-disk size: 7224 KB)
+0006.165 (0) Zip: backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-plugins.zip.tmp: 1400 files added (on-disk size: 7224 KB)
+0006.263 (0) Zip: backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-plugins.zip.tmp: 1500 files added (on-disk size: 7224 KB)
+0006.923 (0) Creating zip file manifest (backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-plugins.zip.list-temp.tmp)
+0006.928 (0) Successfully created zip file manifest (size: 134436)
+0007.243 (0) Created plugins zip (0) - 8650.9 KB in 7.2 s (1200.9 KB/s) (sha1: 42212a9bf22bba62a1e3df625da688abb1f8dc06, sha256: f7a47f081a1cf62eecbfbfbbbc20327f09ec38017628f2476226e4fc6ee4993f)
+0007.249 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0007.250 (0) No remote despatch: user chose no remote backup service
+0007.251 (0) Recording as successfully uploaded: backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-plugins.zip
+0007.253 (0) Deleting zip manifest (backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-plugins.zip.list.tmp)
+0007.256 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0007.257 (0) Number of backup sets in history: 0; groups (db): 1
+0007.258 (0) Number of backup sets in history: 0; groups (files): 1
+0007.258 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0007.263 (0) Beginning creation of dump of themes (split every: 400 MB)
+0007.266 (0) PHP event: Could not ask cPanel about disk space (open_basedir) - this is not an error (line 419, wp-content/plugins/updraftplus/class-updraftplus.php)
+0007.807 (0) Total entities for the zip file: 258 directories, 757 files (0 skipped as non-modified), 15 MB
+0007.895 (0) Zip: backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0007.999 (0) Zip: backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0008.105 (0) Zip: backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0008.220 (0) Zip: backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0008.290 (0) Zip: backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0008.353 (0) Zip: backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0008.424 (0) Zip: backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0009.973 (0) Creating zip file manifest (backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-themes.zip.list-temp.tmp)
+0009.975 (0) Successfully created zip file manifest (size: 64666)
+0010.151 (0) Created themes zip (0) - 8795.6 KB in 2.9 s (3050.3 KB/s) (sha1: 1fa4e16922bcffc5d61d11c3aa6fff48c30b668a, sha256: 284db7b4cf492e1fabdf8a4f8add5e0d048283e7f556aff1498c30a38dfedf5d)
+0010.159 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0010.160 (0) No remote despatch: user chose no remote backup service
+0010.161 (0) Recording as successfully uploaded: backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-themes.zip
+0010.162 (0) Deleting zip manifest (backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-themes.zip.list.tmp)
+0010.164 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0010.165 (0) Number of backup sets in history: 0; groups (db): 1
+0010.166 (0) Number of backup sets in history: 0; groups (files): 1
+0010.167 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0010.172 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0010.173 (0) Looking for candidates to backup in: /home/vol19_1/infinityfree.com/if0_37246937/htdocs/wp-content/uploads
+0010.174 (0) finding files: 2024: adding to list (1)
+0010.175 (0) finding files: wpcf7_uploads: adding to list (2)
+0010.175 (0) finding files: wc-logs: adding to list (3)
+0010.176 (0) finding files: woocommerce_uploads: adding to list (4)
+0010.176 (0) finding files: woocommerce-placeholder.png: adding to list (5)
+0010.177 (0) finding files: woocommerce-placeholder-300x300.png: adding to list (6)
+0010.177 (0) finding files: woocommerce-placeholder-1024x1024.png: adding to list (7)
+0010.178 (0) finding files: woocommerce-placeholder-150x150.png: adding to list (8)
+0010.179 (0) finding files: woocommerce-placeholder-768x768.png: adding to list (9)
+0010.179 (0) finding files: woocommerce-placeholder-1200x550.png: adding to list (10)
+0010.180 (0) finding files: woocommerce-placeholder-1200x790.png: adding to list (11)
+0010.180 (0) finding files: woocommerce-placeholder-730x90.png: adding to list (12)
+0010.181 (0) finding files: woocommerce-placeholder-420x300.png: adding to list (13)
+0010.181 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0010.184 (0) PHP event: Could not ask cPanel about disk space (open_basedir) - this is not an error (line 419, wp-content/plugins/updraftplus/class-updraftplus.php)
+0010.198 (0) Total entities for the zip file: 5 directories, 14 files (0 skipped as non-modified), 0.5 MB
+0010.214 (0) Creating zip file manifest (backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-uploads.zip.list-temp.tmp)
+0010.216 (0) Successfully created zip file manifest (size: 724)
+0010.227 (0) Created uploads zip (0) - 499.1 KB in 0 s (12119.6 KB/s) (sha1: 1ea9a5474dd0989c8abf76097bc84e57a91a4588, sha256: cf8d896f2cc71ea2e8c8ab035eab36110d54127a1c666316f8dc90be49e319e9)
+0010.231 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0010.231 (0) No remote despatch: user chose no remote backup service
+0010.232 (0) Recording as successfully uploaded: backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-uploads.zip
+0010.233 (0) Deleting zip manifest (backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-uploads.zip.list.tmp)
+0010.235 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0010.236 (0) Number of backup sets in history: 0; groups (db): 1
+0010.237 (0) Number of backup sets in history: 0; groups (files): 1
+0010.237 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0010.241 (0) No backup of mu-plugins: excluded by user's options
+0010.243 (0) Beginning backup of other directories found in the content directory (index: 0)
+0010.244 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0010.244 (0) Looking for candidates to backup in: /home/vol19_1/infinityfree.com/if0_37246937/htdocs/wp-content
+0010.245 (0) finding files: index.php: adding to list (1)
+0010.246 (0) finding files: plugins: skipping: this is the plugins directory
+0010.246 (0) finding files: themes: skipping: this is the themes directory
+0010.247 (0) finding files: uploads: skipping: this is the uploads directory
+0010.247 (0) finding files: upgrade: skipping: excluded by options
+0010.248 (0) finding files: upgrade-temp-backup: adding to list (2)
+0010.248 (0) finding files: fonts: adding to list (3)
+0010.249 (0) finding files: updraft: skipping: this is the updraft directory
+0010.251 (0) PHP event: Could not ask cPanel about disk space (open_basedir) - this is not an error (line 419, wp-content/plugins/updraftplus/class-updraftplus.php)
+0010.275 (0) Total entities for the zip file: 10 directories, 60 files (0 skipped as non-modified), 0.9 MB
+0010.348 (0) Creating zip file manifest (backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-others.zip.list-temp.tmp)
+0010.349 (0) Successfully created zip file manifest (size: 3947)
+0010.366 (0) Created others zip (0) - 908.8 KB in 0.1 s (8028.2 KB/s) (sha1: 7b314ec3960fbdece259445d16a07666413efcd7, sha256: 96b5e0820e9e1a7438a36513ced7a4a8794578acd1f294d9efa5bff5c56858f3)
+0010.370 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0010.371 (0) No remote despatch: user chose no remote backup service
+0010.372 (0) Recording as successfully uploaded: backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-others.zip
+0010.374 (0) Deleting zip manifest (backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-others.zip.list.tmp)
+0010.376 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0010.377 (0) Number of backup sets in history: 0; groups (db): 1
+0010.377 (0) Number of backup sets in history: 0; groups (files): 1
+0010.378 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0010.385 (0) Saving backup status to database (elements: 8)
+0010.388 (0) Beginning creation of database dump (WordPress DB)
+0010.389 (0) Couldn't get the sql_mode value (N;); will not attempt any adjustment
+0010.408 (0) Table wpwg_options: Total expected rows (via COUNT): 466
+0010.409 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.575 (0) Table wpwg_options: Rows added in this batch (next record: 686): 462 (uncompressed bytes in this segment=2978777) in 0.17 seconds
+0010.580 (0) Table wpwg_options: finishing file(s) (2, 493 KB)
+0010.585 (0) Table wpwg_users: Total expected rows (via COUNT): 1
+0010.586 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.588 (0) Table wpwg_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1182) in 0.00 seconds
+0010.592 (0) Table wpwg_users: finishing file(s) (2, 0.6 KB)
+0010.598 (0) Table wpwg_usermeta: Total expected rows (via COUNT): 37
+0010.599 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.602 (0) Table wpwg_usermeta: Rows added in this batch (next record: 40): 37 (uncompressed bytes in this segment=3522) in 0.01 seconds
+0010.607 (0) Table wpwg_usermeta: finishing file(s) (2, 1.7 KB)
+0010.613 (0) Table wpwg_commentmeta: Total expected rows (via COUNT): 0
+0010.616 (0) Table wpwg_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=646) in 0.01 seconds
+0010.620 (0) Table wpwg_commentmeta: finishing file(s) (2, 0.4 KB)
+0010.625 (0) Table wpwg_comments: Total expected rows (via COUNT): 1
+0010.625 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.628 (0) Table wpwg_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1946) in 0.00 seconds
+0010.632 (0) Table wpwg_comments: finishing file(s) (2, 0.8 KB)
+0010.639 (0) Table wpwg_links: Total expected rows (via COUNT): 0
+0010.642 (0) Table wpwg_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1039) in 0.00 seconds
+0010.645 (0) Table wpwg_links: finishing file(s) (2, 0.5 KB)
+0010.651 (0) Table wpwg_postmeta: Total expected rows (via COUNT): 148
+0010.651 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.655 (0) Table wpwg_postmeta: Rows added in this batch (next record: 165): 148 (uncompressed bytes in this segment=9336) in 0.01 seconds
+0010.660 (0) Table wpwg_postmeta: finishing file(s) (2, 2.1 KB)
+0010.667 (0) Table wpwg_posts: Total expected rows (via COUNT): 48
+0010.668 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.680 (0) Table wpwg_posts: Rows added in this batch (next record: 50): 48 (uncompressed bytes in this segment=308525) in 0.02 seconds
+0010.685 (0) Table wpwg_posts: finishing file(s) (2, 25.9 KB)
+0010.689 (0) Table wpwg_term_relationships: Total expected rows (approximate): 13
+0010.692 (0) Table wpwg_term_relationships: Rows added in this batch (next record: 100000): 13 (uncompressed bytes in this segment=867) in 0.00 seconds
+0010.696 (0) Table wpwg_term_relationships: finishing file(s) (2, 0.4 KB)
+0010.701 (0) Table wpwg_term_taxonomy: Total expected rows (via COUNT): 18
+0010.702 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.705 (0) Table wpwg_term_taxonomy: Rows added in this batch (next record: 18): 18 (uncompressed bytes in this segment=1528) in 0.01 seconds
+0010.710 (0) Table wpwg_term_taxonomy: finishing file(s) (2, 0.6 KB)
+0010.715 (0) Table wpwg_termmeta: Total expected rows (via COUNT): 0
+0010.717 (0) Table wpwg_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=619) in 0.00 seconds
+0010.722 (0) Table wpwg_termmeta: finishing file(s) (2, 0.4 KB)
+0010.726 (0) Table wpwg_terms: Total expected rows (via COUNT): 18
+0010.726 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.729 (0) Table wpwg_terms: Rows added in this batch (next record: 18): 18 (uncompressed bytes in this segment=1312) in 0.00 seconds
+0010.732 (0) Table wpwg_terms: finishing file(s) (2, 0.6 KB)
+0010.738 (0) Table wpwg_actionscheduler_actions: Total expected rows (via COUNT): 3
+0010.739 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.740 (0) Table wpwg_actionscheduler_actions: Rows added in this batch (next record: 38): 3 (uncompressed bytes in this segment=2752) in 0.00 seconds
+0010.745 (0) Table wpwg_actionscheduler_actions: finishing file(s) (2, 0.9 KB)
+0010.751 (0) Table wpwg_actionscheduler_claims: Total expected rows (via COUNT): 0
+0010.752 (0) Table wpwg_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=618) in 0.00 seconds
+0010.756 (0) Table wpwg_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0010.761 (0) Table wpwg_actionscheduler_groups: Total expected rows (via COUNT): 2
+0010.761 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.763 (0) Table wpwg_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=682) in 0.00 seconds
+0010.767 (0) Table wpwg_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0010.771 (0) Table wpwg_actionscheduler_logs: Total expected rows (via COUNT): 3
+0010.772 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.774 (0) Table wpwg_actionscheduler_logs: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1039) in 0.00 seconds
+0010.778 (0) Table wpwg_actionscheduler_logs: finishing file(s) (2, 0.5 KB)
+0010.782 (0) Table wpwg_e_events: Total expected rows (via COUNT): 0
+0010.784 (0) Table wpwg_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=523) in 0.00 seconds
+0010.788 (0) Table wpwg_e_events: finishing file(s) (2, 0.4 KB)
+0010.794 (0) Table wpwg_wc_admin_note_actions: Total expected rows (via COUNT): 83
+0010.794 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.798 (0) Table wpwg_wc_admin_note_actions: Rows added in this batch (next record: 83): 83 (uncompressed bytes in this segment=16331) in 0.01 seconds
+0010.803 (0) Table wpwg_wc_admin_note_actions: finishing file(s) (2, 2.7 KB)
+0010.808 (0) Table wpwg_wc_admin_notes: Total expected rows (via COUNT): 56
+0010.809 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.812 (0) Table wpwg_wc_admin_notes: Rows added in this batch (next record: 56): 56 (uncompressed bytes in this segment=28042) in 0.01 seconds
+0010.817 (0) Table wpwg_wc_admin_notes: finishing file(s) (2, 5.9 KB)
+0010.820 (0) Table wpwg_wc_category_lookup: Total expected rows (approximate): 0
+0010.823 (0) Table wpwg_wc_category_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=547) in 0.00 seconds
+0010.827 (0) Table wpwg_wc_category_lookup: finishing file(s) (2, 0.3 KB)
+0010.832 (0) Table wpwg_wc_customer_lookup: Total expected rows (via COUNT): 0
+0010.833 (0) Table wpwg_wc_customer_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1030) in 0.00 seconds
+0010.837 (0) Table wpwg_wc_customer_lookup: finishing file(s) (2, 0.5 KB)
+0010.841 (0) Table wpwg_wc_download_log: Total expected rows (via COUNT): 0
+0010.842 (0) Table wpwg_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=728) in 0.00 seconds
+0010.845 (0) Table wpwg_wc_download_log: finishing file(s) (2, 0.4 KB)
+0010.849 (0) Table wpwg_wc_order_addresses: Total expected rows (via COUNT): 0
+0010.850 (0) Table wpwg_wc_order_addresses: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1070) in 0.00 seconds
+0010.854 (0) Table wpwg_wc_order_addresses: finishing file(s) (2, 0.5 KB)
+0010.858 (0) Table wpwg_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0010.859 (0) Table wpwg_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=727) in 0.00 seconds
+0010.862 (0) Table wpwg_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0010.866 (0) Table wpwg_wc_order_operational_data: Total expected rows (via COUNT): 0
+0010.867 (0) Table wpwg_wc_order_operational_data: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1411) in 0.00 seconds
+0010.871 (0) Table wpwg_wc_order_operational_data: finishing file(s) (2, 0.6 KB)
+0010.876 (0) Table wpwg_wc_order_product_lookup: Total expected rows (via COUNT): 0
+0010.877 (0) Table wpwg_wc_order_product_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1227) in 0.00 seconds
+0010.880 (0) Table wpwg_wc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+0010.884 (0) Table wpwg_wc_order_stats: Total expected rows (via COUNT): 0
+0010.885 (0) Table wpwg_wc_order_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1204) in 0.00 seconds
+0010.889 (0) Table wpwg_wc_order_stats: finishing file(s) (2, 0.5 KB)
+0010.892 (0) Table wpwg_wc_order_tax_lookup: Total expected rows (approximate): 0
+0010.893 (0) Table wpwg_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=805) in 0.00 seconds
+0010.897 (0) Table wpwg_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0010.902 (0) Table wpwg_wc_orders: Total expected rows (via COUNT): 0
+0010.903 (0) Table wpwg_wc_orders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1429) in 0.00 seconds
+0010.907 (0) Table wpwg_wc_orders: finishing file(s) (2, 0.6 KB)
+0010.911 (0) Table wpwg_wc_orders_meta: Total expected rows (via COUNT): 0
+0010.913 (0) Table wpwg_wc_orders_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=714) in 0.00 seconds
+0010.917 (0) Table wpwg_wc_orders_meta: finishing file(s) (2, 0.4 KB)
+0010.921 (0) Table wpwg_wc_product_attributes_lookup: Total expected rows (approximate): 0
+0010.923 (0) Table wpwg_wc_product_attributes_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=843) in 0.00 seconds
+0010.927 (0) Table wpwg_wc_product_attributes_lookup: finishing file(s) (2, 0.4 KB)
+0010.931 (0) Table wpwg_wc_product_download_directories: Total expected rows (via COUNT): 2
+0010.932 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.934 (0) Table wpwg_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=925) in 0.00 seconds
+0010.938 (0) Table wpwg_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0010.943 (0) Table wpwg_wc_product_meta_lookup: Total expected rows (via COUNT): 0
+0010.945 (0) Table wpwg_wc_product_meta_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1308) in 0.00 seconds
+0010.950 (0) Table wpwg_wc_product_meta_lookup: finishing file(s) (2, 0.5 KB)
+0010.955 (0) Table wpwg_wc_rate_limits: Total expected rows (via COUNT): 0
+0010.956 (0) Table wpwg_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=679) in 0.00 seconds
+0010.961 (0) Table wpwg_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0010.966 (0) Table wpwg_wc_reserved_stock: Total expected rows (approximate): 0
+0010.967 (0) Table wpwg_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=675) in 0.00 seconds
+0010.973 (0) Table wpwg_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0010.978 (0) Table wpwg_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0010.978 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.981 (0) Table wpwg_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=764) in 0.00 seconds
+0010.986 (0) Table wpwg_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0010.991 (0) Table wpwg_wc_webhooks: Total expected rows (via COUNT): 0
+0010.994 (0) Table wpwg_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1083) in 0.00 seconds
+0010.998 (0) Table wpwg_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0011.003 (0) Table wpwg_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0011.004 (0) Table wpwg_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=885) in 0.00 seconds
+0011.008 (0) Table wpwg_woocommerce_api_keys: finishing file(s) (2, 0.4 KB)
+0011.013 (0) Table wpwg_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 0
+0011.014 (0) Table wpwg_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=847) in 0.00 seconds
+0011.018 (0) Table wpwg_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0011.022 (0) Table wpwg_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0011.023 (0) Table wpwg_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1422) in 0.00 seconds
+0011.027 (0) Table wpwg_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0011.033 (0) Table wpwg_woocommerce_log: Total expected rows (via COUNT): 0
+0011.034 (0) Table wpwg_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=654) in 0.00 seconds
+0011.038 (0) Table wpwg_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0011.044 (0) Table wpwg_woocommerce_order_itemmeta: Total expected rows (via COUNT): 0
+0011.046 (0) Table wpwg_woocommerce_order_itemmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=734) in 0.00 seconds
+0011.050 (0) Table wpwg_woocommerce_order_itemmeta: finishing file(s) (2, 0.4 KB)
+0011.054 (0) Table wpwg_woocommerce_order_items: Total expected rows (via COUNT): 0
+0011.056 (0) Table wpwg_woocommerce_order_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=689) in 0.00 seconds
+0011.060 (0) Table wpwg_woocommerce_order_items: finishing file(s) (2, 0.4 KB)
+0011.066 (0) Table wpwg_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0011.067 (0) Table wpwg_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=761) in 0.00 seconds
+0011.072 (0) Table wpwg_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0011.076 (0) Table wpwg_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0011.078 (0) Table wpwg_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=756) in 0.00 seconds
+0011.082 (0) Table wpwg_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0011.088 (0) Table wpwg_woocommerce_sessions: Total expected rows (via COUNT): 1
+0011.088 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0011.091 (0) Table wpwg_woocommerce_sessions: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2142) in 0.01 seconds
+0011.096 (0) Table wpwg_woocommerce_sessions: finishing file(s) (2, 0.8 KB)
+0011.101 (0) Table wpwg_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 0
+0011.102 (0) Table wpwg_woocommerce_shipping_zone_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=816) in 0.00 seconds
+0011.106 (0) Table wpwg_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0011.110 (0) Table wpwg_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 0
+0011.111 (0) Table wpwg_woocommerce_shipping_zone_methods: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=754) in 0.00 seconds
+0011.115 (0) Table wpwg_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0011.120 (0) Table wpwg_woocommerce_shipping_zones: Total expected rows (via COUNT): 0
+0011.121 (0) Table wpwg_woocommerce_shipping_zones: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=614) in 0.00 seconds
+0011.124 (0) Table wpwg_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0011.128 (0) Table wpwg_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0011.130 (0) Table wpwg_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=798) in 0.00 seconds
+0011.133 (0) Table wpwg_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0011.137 (0) Table wpwg_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0011.138 (0) Table wpwg_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1154) in 0.00 seconds
+0011.142 (0) Table wpwg_woocommerce_tax_rates: finishing file(s) (2, 0.4 KB)
+0011.143 (0) PHP event: code E_WARNING: filemtime(): stat failed for /home/vol19_1/infinityfree.com/if0_37246937/htdocs/wp-content/updraft/backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db.gz (line 1925, wp-content/plugins/updraftplus/backup.php)
+0011.146 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_options.table.tmpr687.gz (1/51/fopen): adding to final database dump
+0011.150 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_options.table.gz (2/51/fopen): adding to final database dump
+0011.151 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_users.table.tmpr2.gz (3/51/fopen): adding to final database dump
+0011.152 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_users.table.gz (4/51/fopen): adding to final database dump
+0011.152 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_usermeta.table.tmpr41.gz (5/51/fopen): adding to final database dump
+0011.153 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_usermeta.table.gz (6/51/fopen): adding to final database dump
+0011.154 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_commentmeta.table.tmpr0.gz (7/51/fopen): adding to final database dump
+0011.155 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_commentmeta.table.gz (8/51/fopen): adding to final database dump
+0011.156 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_comments.table.tmpr2.gz (9/51/fopen): adding to final database dump
+0011.157 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_comments.table.gz (10/51/fopen): adding to final database dump
+0011.157 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_links.table.tmpr0.gz (11/51/fopen): adding to final database dump
+0011.158 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_links.table.gz (12/51/fopen): adding to final database dump
+0011.159 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_postmeta.table.tmpr166.gz (13/51/fopen): adding to final database dump
+0011.159 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_postmeta.table.gz (14/51/fopen): adding to final database dump
+0011.160 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_posts.table.tmpr51.gz (15/51/fopen): adding to final database dump
+0011.161 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_posts.table.gz (16/51/fopen): adding to final database dump
+0011.162 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_term_relationships.table.tmpr100001.gz (17/51/fopen): adding to final database dump
+0011.163 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_term_relationships.table.gz (18/51/fopen): adding to final database dump
+0011.163 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_term_taxonomy.table.tmpr19.gz (19/51/fopen): adding to final database dump
+0011.164 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_term_taxonomy.table.gz (20/51/fopen): adding to final database dump
+0011.165 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_termmeta.table.tmpr0.gz (21/51/fopen): adding to final database dump
+0011.166 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_termmeta.table.gz (22/51/fopen): adding to final database dump
+0011.166 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_terms.table.tmpr19.gz (23/51/fopen): adding to final database dump
+0011.167 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_terms.table.gz (24/51/fopen): adding to final database dump
+0011.168 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_actionscheduler_actions.table.tmpr39.gz (25/51/fopen): adding to final database dump
+0011.169 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_actionscheduler_actions.table.gz (26/51/fopen): adding to final database dump
+0011.169 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_actionscheduler_claims.table.tmpr0.gz (27/51/fopen): adding to final database dump
+0011.170 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_actionscheduler_claims.table.gz (28/51/fopen): adding to final database dump
+0011.171 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_actionscheduler_groups.table.tmpr3.gz (29/51/fopen): adding to final database dump
+0011.172 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_actionscheduler_groups.table.gz (30/51/fopen): adding to final database dump
+0011.172 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_actionscheduler_logs.table.tmpr4.gz (31/51/fopen): adding to final database dump
+0011.173 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_actionscheduler_logs.table.gz (32/51/fopen): adding to final database dump
+0011.174 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_e_events.table.tmpr0.gz (33/51/fopen): adding to final database dump
+0011.175 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_e_events.table.gz (34/51/fopen): adding to final database dump
+0011.175 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_wc_admin_note_actions.table.tmpr84.gz (35/51/fopen): adding to final database dump
+0011.176 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_wc_admin_note_actions.table.gz (36/51/fopen): adding to final database dump
+0011.177 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_wc_admin_notes.table.tmpr57.gz (37/51/fopen): adding to final database dump
+0011.178 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_wc_admin_notes.table.gz (38/51/fopen): adding to final database dump
+0011.178 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_wc_category_lookup.table.tmpr1.gz (39/51/fopen): adding to final database dump
+0011.179 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_wc_category_lookup.table.gz (40/51/fopen): adding to final database dump
+0011.180 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_wc_customer_lookup.table.tmpr0.gz (41/51/fopen): adding to final database dump
+0011.181 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_wc_customer_lookup.table.gz (42/51/fopen): adding to final database dump
+0011.182 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_wc_download_log.table.tmpr0.gz (43/51/fopen): adding to final database dump
+0011.182 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_wc_download_log.table.gz (44/51/fopen): adding to final database dump
+0011.183 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_wc_order_addresses.table.tmpr0.gz (45/51/fopen): adding to final database dump
+0011.184 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_wc_order_addresses.table.gz (46/51/fopen): adding to final database dump
+0011.185 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_wc_order_coupon_lookup.table.tmpr1.gz (47/51/fopen): adding to final database dump
+0011.185 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_wc_order_coupon_lookup.table.gz (48/51/fopen): adding to final database dump
+0011.186 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_wc_order_operational_data.table.tmpr0.gz (49/51/fopen): adding to final database dump
+0011.187 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_wc_order_operational_data.table.gz (50/51/fopen): adding to final database dump
+0011.188 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_wc_order_product_lookup.table.tmpr0.gz (51/51/fopen): adding to final database dump
+0011.188 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_wc_order_product_lookup.table.gz (52/51/fopen): adding to final database dump
+0011.189 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_wc_order_stats.table.tmpr0.gz (53/51/fopen): adding to final database dump
+0011.190 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_wc_order_stats.table.gz (54/51/fopen): adding to final database dump
+0011.191 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_wc_order_tax_lookup.table.tmpr1.gz (55/51/fopen): adding to final database dump
+0011.191 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_wc_order_tax_lookup.table.gz (56/51/fopen): adding to final database dump
+0011.192 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_wc_orders.table.tmpr0.gz (57/51/fopen): adding to final database dump
+0011.193 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_wc_orders.table.gz (58/51/fopen): adding to final database dump
+0011.194 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_wc_orders_meta.table.tmpr0.gz (59/51/fopen): adding to final database dump
+0011.195 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_wc_orders_meta.table.gz (60/51/fopen): adding to final database dump
+0011.195 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_wc_product_attributes_lookup.table.tmpr1.gz (61/51/fopen): adding to final database dump
+0011.196 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_wc_product_attributes_lookup.table.gz (62/51/fopen): adding to final database dump
+0011.197 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_wc_product_download_directories.table.tmpr3.gz (63/51/fopen): adding to final database dump
+0011.198 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_wc_product_download_directories.table.gz (64/51/fopen): adding to final database dump
+0011.199 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_wc_product_meta_lookup.table.tmpr0.gz (65/51/fopen): adding to final database dump
+0011.199 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_wc_product_meta_lookup.table.gz (66/51/fopen): adding to final database dump
+0011.200 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_wc_rate_limits.table.tmpr0.gz (67/51/fopen): adding to final database dump
+0011.201 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_wc_rate_limits.table.gz (68/51/fopen): adding to final database dump
+0011.202 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_wc_reserved_stock.table.tmpr1.gz (69/51/fopen): adding to final database dump
+0011.203 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_wc_reserved_stock.table.gz (70/51/fopen): adding to final database dump
+0011.204 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_wc_tax_rate_classes.table.tmpr3.gz (71/51/fopen): adding to final database dump
+0011.204 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_wc_tax_rate_classes.table.gz (72/51/fopen): adding to final database dump
+0011.205 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_wc_webhooks.table.tmpr0.gz (73/51/fopen): adding to final database dump
+0011.206 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_wc_webhooks.table.gz (74/51/fopen): adding to final database dump
+0011.206 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_woocommerce_api_keys.table.tmpr0.gz (75/51/fopen): adding to final database dump
+0011.207 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_woocommerce_api_keys.table.gz (76/51/fopen): adding to final database dump
+0011.208 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_woocommerce_attribute_taxonomies.table.tmpr0.gz (77/51/fopen): adding to final database dump
+0011.209 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_woocommerce_attribute_taxonomies.table.gz (78/51/fopen): adding to final database dump
+0011.210 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_woocommerce_downloadable_product_permissions.table.tmpr0.gz (79/51/fopen): adding to final database dump
+0011.210 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_woocommerce_downloadable_product_permissions.table.gz (80/51/fopen): adding to final database dump
+0011.211 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_woocommerce_log.table.tmpr0.gz (81/51/fopen): adding to final database dump
+0011.212 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_woocommerce_log.table.gz (82/51/fopen): adding to final database dump
+0011.213 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_woocommerce_order_itemmeta.table.tmpr0.gz (83/51/fopen): adding to final database dump
+0011.214 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_woocommerce_order_itemmeta.table.gz (84/51/fopen): adding to final database dump
+0011.214 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_woocommerce_order_items.table.tmpr0.gz (85/51/fopen): adding to final database dump
+0011.215 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_woocommerce_order_items.table.gz (86/51/fopen): adding to final database dump
+0011.216 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_woocommerce_payment_tokenmeta.table.tmpr0.gz (87/51/fopen): adding to final database dump
+0011.217 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_woocommerce_payment_tokenmeta.table.gz (88/51/fopen): adding to final database dump
+0011.217 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_woocommerce_payment_tokens.table.tmpr0.gz (89/51/fopen): adding to final database dump
+0011.218 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_woocommerce_payment_tokens.table.gz (90/51/fopen): adding to final database dump
+0011.219 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_woocommerce_sessions.table.tmpr2.gz (91/51/fopen): adding to final database dump
+0011.220 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_woocommerce_sessions.table.gz (92/51/fopen): adding to final database dump
+0011.220 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_woocommerce_shipping_zone_locations.table.tmpr0.gz (93/51/fopen): adding to final database dump
+0011.221 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_woocommerce_shipping_zone_locations.table.gz (94/51/fopen): adding to final database dump
+0011.222 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_woocommerce_shipping_zone_methods.table.tmpr0.gz (95/51/fopen): adding to final database dump
+0011.223 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_woocommerce_shipping_zone_methods.table.gz (96/51/fopen): adding to final database dump
+0011.223 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_woocommerce_shipping_zones.table.tmpr0.gz (97/51/fopen): adding to final database dump
+0011.224 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_woocommerce_shipping_zones.table.gz (98/51/fopen): adding to final database dump
+0011.225 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_woocommerce_tax_rate_locations.table.tmpr0.gz (99/51/fopen): adding to final database dump
+0011.227 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_woocommerce_tax_rate_locations.table.gz (100/51/fopen): adding to final database dump
+0011.228 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_woocommerce_tax_rates.table.tmpr0.gz (101/51/fopen): adding to final database dump
+0011.228 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db-table-wpwg_woocommerce_tax_rates.table.gz (102/51/fopen): adding to final database dump
+0011.234 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db.gz: finished writing out complete database file (551.5 KB)
+0011.258 (0) Total database tables backed up: 51 (backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db.gz, size: 564842, sha1: 6ca9b66f2eb8c70b7b785b090397f523a5918b71, sha256: b7def77e5a6046ec4f438edd033885b072982887c05238227e6e5c48026ced8d)
+0011.265 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-plugins.zip: plugins: This file has already been successfully uploaded
+0011.266 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-themes.zip: themes: This file has already been successfully uploaded
+0011.266 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-uploads.zip: uploads: This file has already been successfully uploaded
+0011.267 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-others.zip: others: This file has already been successfully uploaded
+0011.268 (0) backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db.gz: db: This file has not yet been successfully uploaded: will queue
+0011.268 (0) Saving backup history. Total backup size: 19 MB
+0011.271 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0011.273 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0011.274 (0) No remote despatch: user chose no remote backup service
+0011.274 (0) Recording as successfully uploaded: backup_2024-09-08-0029_Tocupboard_0ad7355af9d5-db.gz
+0011.277 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0011.279 (0) Number of backup sets in history: 1; groups (db): 1
+0011.279 (0) Examining (for databases) backup set with group_id=0, nonce=0ad7355af9d5, datestamp=1725755398 (Sep 08 2024 00:29:58)
+0011.280 (0) This backup set is the backup set just made, so will not be deleted.
+0011.280 (0) Number of backup sets in history: 1; groups (files): 1
+0011.280 (0) Examining (for files) backup set with nonce=0ad7355af9d5, datestamp=1725755398 (Sep 08 2024 00:29:58)
+0011.280 (0) This backup set is the backup set just made, so will not be deleted.
+0011.281 (0) This backup set is the backup set just made, so will not be deleted.
+0011.281 (0) This backup set is the backup set just made, so will not be deleted.
+0011.281 (0) This backup set is the backup set just made, so will not be deleted.
+0011.281 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0011.282 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0011.284 (0) Resume backup (0ad7355af9d5, 0): finish run
+0011.285 (0) Decremented the semaphore (fd) by 1
+0011.286 (0) Semaphore (fd) unlocked
+0011.287 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0011.290 (0) No email will/can be sent - the user has not configured an email address.
+0011.291 (0) The backup succeeded and is now complete

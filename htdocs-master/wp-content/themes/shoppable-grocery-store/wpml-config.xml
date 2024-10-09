@@ -1,0 +1,8 @@
+<wpml-config>
+    <admin-texts>
+        <key name="theme_mods_shoppable-grocery-store">
+            <key name="departments_title_one" />
+            <key name="departments_title_two" />
+        </key>
+    </admin-texts>
+</wpml-config>
